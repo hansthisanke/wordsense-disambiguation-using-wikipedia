@@ -29,3 +29,67 @@
 
 # DESCRIPTION
 Implementing a novel scheme of word disambiguation using Python NLTK and Wikipedia
+
+# TASK-3: COMPARISION BETWEEN UNIFIED WSD AND WIKI BASED APPROACH
+
+## Overview
+In this task, we compare the Unified Word Sense Disambiguation (WSD) approach with the Wiki-based approach for understanding word meanings in context. The comparison is performed using the semcor dataset obtained from the Training_corpora folder of the provided dataset.
+
+## Dataset
+The dataset used for this task is from the paper Word Sense Disambiguation: A Unified Evaluation Framework. To proceed with the task, you need to download (http://lcl.uniroma1.it/wsdeval/) the dataset and extract it.
+
+
+Here is the folder structure of the dataset used for the Task-3:
+
+```bash
+├───Data_Validation
+│   ├───lib
+│   └───sample-dataset
+├───Evaluation_Datasets
+│   ├───ALL
+│   ├───semeval2007
+│   ├───semeval2013
+│   ├───semeval2015
+│   ├───senseval2
+│   └───senseval3
+├───Output_Systems_ALL
+└───Training_Corpora
+    ├───SemCor
+    └───SemCor+OMSTI
+```
+
+## Task Workflow
+The task was performed using the following steps:
+
+### Select 10 Target Words
+Choose 10 target words for disambiguation. These words will be the focus of comparison between the two approaches.
+
+### Select Context Sentences
+For each target word, select 3 context sentences from the XML file located in the sector_data folder inside the Training_corpora directory. These sentences will be used to disambiguate the target word's meaning.
+
+### Identify Instance ID
+For each selected context sentence, identify the instance ID of the target word. This instance ID represents a specific occurrence of the word in the context.
+
+### Retrieve Sense Key
+Using the instance ID, retrieve the sense key associated with the target word. The sense key is essential for finding the correct meaning of the word in WordNet.
+
+### Obtain WordNet Definition
+Use the sense key to retrieve the WordNet definition of the target word. WordNet provides a comprehensive and structured set of meanings (senses) for each word.
+
+### Retrieve Wiki Definition
+Using the target word and context sentence, retrieve the Wikipedia definition of the word. The Wiki-based approach leverages the vast knowledge in Wikipedia to capture the meaning of the word in the context of the sentence.
+
+### Compare Definitions
+Compare the WordNet definition and the Wikipedia definition for each target word. The comparison involves analyzing how closely the meanings from WordNet and Wikipedia align with the word's usage in the given context.
+
+### Create a Histogram
+Finally, based on the comparison, generate a histogram to visually represent the number of matches or differences between the WordNet and Wikipedia definitions across the target words.
+## Histogram Comparison
+
+Here is a visual comparison of the histograms:
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <img src="./task_3_data/histogram.png" alt="Histogram 1" width="300" style="border: 2px solid #ddd; border-radius: 10px;">
+  <img src="./task_3_data/histogram.png" alt="Histogram 2" width="300" style="border: 2px solid #ddd; border-radius: 10px;">
+</div>
+
