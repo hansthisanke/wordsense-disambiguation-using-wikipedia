@@ -19,8 +19,9 @@
 <img src="https://img.shields.io/github/last-commit/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="GitHub top language" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hansthisanke&repo=wordsense-disambiguation-using-wikipedia&layout=compact" alt="Top Languages" />
+
 </p>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hansthisanke&repo=wordsense-disambiguation-using-wikipedia&layout=compact" alt="Top Languages" />
 </div>
 
 
