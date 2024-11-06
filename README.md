@@ -13,6 +13,7 @@
 <img src="https://img.shields.io/badge/Scipy-blue?style=flat&logo=scipy&logoSize=auto&labelColor=gray", alt="Scipy"/>
 
 </p>
+
 <img src="https://img.shields.io/github/license/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="GitHub license" />
 <img src="https://img.shields.io/github/last-commit/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="git-last-commit" />
 <img src="https://img.shields.io/github/commit-activity/m/hansthisanke/wordsense-disambiguation-using-wikipedia?style=for-the-badge&color=5D6D7E" alt="GitHub commit activity" />
