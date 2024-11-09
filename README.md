@@ -93,3 +93,32 @@ Here is a visual comparison of the histograms:
   <img src="./task_3_data/histogram.png" alt="Histogram 2" width="300" style="border: 2px solid #ddd; border-radius: 10px;">
 </div>
 
+---
+
+
+
+# TASK-6,7 and 8: Using Wikipedia2Vec for word pair similarity comparisons
+
+## Overview
+In this task,we use Wikipedia2Vec framework for similarity calculation, comparison word-pair correlation between standard embedding models across benchmark datasets. Development of a convex combination factor based vector embedding model for further comparison of performance enhancements.
+
+## Dataset
+The dataset used for this task are the benchmark datasets MC, RG and WS353. 
+
+
+Here is the folder structure of the dataset used for the the tasks:
+
+```bash
+├───datasets
+│   ├───mc.csv
+│   ├───rg.csv
+│   └───wordsim.csv
+```
+
+In additon to above the pre-trained vector embedding with 300 dimension need to be downloaded from https://wikipedia2vec.github.io/wikipedia2vec/pretrained/.
+
+Also the required libraries and packages are listed in the requirements.txt file. By running this file can obtain the dependencies to run the script code_task6_onwards.ipynb
+
+In the python notebook,
+- The required pre-trained embeddings of word2vec, GloVe and FastText are installed with gensim packages.
+- Wikipedia2Vec pre-trained embedding file need to be downloaded to the root folder in order to load in the script.
