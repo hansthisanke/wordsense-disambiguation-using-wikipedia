@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">
 <img src="https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/128/folder-icon.png" width="100" />
-<br>WORDSENSE-DISAMBIGUATIN-USING-WIKIPEDIA</h1>
+<br>WORDSENSE-DISAMBIGUATION-USING-WIKIPEDIA</h1>
 <h3>Developed with the packages and tools below</h3>
 <h3>Tensorflow, Keras, Numpy, Pandas, Matplotlib, Seaborn, Sklearn, Scipy</h3>
 <p align="center">
@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/badge/Pandas-blue?style=flat&logo=pandas&logoSize=auto&labelColor=gray", alt="Pandas"/>
 <img src="https://img.shields.io/badge/Scikitlearn-blue?style=flat&logo=scikitlearn&logoSize=auto&labelColor=gray", alt="Sklearn"/>
 <img src="https://img.shields.io/badge/Scipy-blue?style=flat&logo=scipy&logoSize=auto&labelColor=gray", alt="Scipy"/>
+<img src="https://img.shields.io/badge/Wikipedia2Vec-blue?style=flat&logo=wikipedia&logoSize=auto&labelColor=gray", alt="Scipy"/>
 
 </p>
 
@@ -30,7 +31,7 @@
 # DESCRIPTION
 Implementing a novel scheme of word disambiguation using Python NLTK and Wikipedia
 
-# TASK-3: COMPARISION BETWEEN UNIFIED WSD AND WIKI BASED APPROACH
+# TASK-3: COMPARISON BETWEEN UNIFIED WSD AND WIKI BASED APPROACH
 
 ## Overview
 In this task, we compare the Unified Word Sense Disambiguation (WSD) approach with the Wiki-based approach for understanding word meanings in context. The comparison is performed using the semcor dataset obtained from the Training_corpora folder of the provided dataset.
