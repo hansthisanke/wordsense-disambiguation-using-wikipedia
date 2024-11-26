@@ -1,0 +1,18 @@
+# nlp libraries
+nltk
+
+# Pre-trained word embedding libraries and apis
+gensim
+wikipedia-api
+
+#  Wikipedia2Vec library
+wikipedia2vec
+
+#  other utilities
+scipy
+numpy
+os
+requests
+pandas
+seaborn
+matplotlib
